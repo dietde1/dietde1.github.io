@@ -20,6 +20,19 @@
             font-size: 1.5em;
         }
 
+        h1 {
+            animation: bounce 1s infinite alternate;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+
         section {
             margin: 2em;
             text-align: left;
